@@ -21,10 +21,11 @@ public class ExercicioDrone {
 			System.out.println("Carregar Lixo1");
 		}else if((lixo2<lixo3)&(lixo2<lixo1)) {
 				System.out.println("Carregar Lixo2");
-		}else { if((lixo3<lixo1)&(lixo3<lixo2)) 
+		}else  if((lixo3<lixo1)&(lixo3<lixo2)) {
 				System.out.println("Carregar Lixo3");
-		}
+		}else { System.out.println("Não foi possivel determinar apaenas 1 lixo como o menor");
 		leitor.close();
+		}
 		}
 	}
 
